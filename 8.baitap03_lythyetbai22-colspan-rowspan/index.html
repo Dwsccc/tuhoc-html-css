@@ -9,26 +9,47 @@
 </head>
 
 <body>
-    <h1>Học table buổi 2</h1>
     <table>
-        <tr>
-            <th>Tên sản phẩm</th>
-            <th colspan="2">Mô tả</th>
-        </tr>
-        <tr>
-            <td rowspan="2">Áo phông</td>
-            <td>Chất Liệu</td>
-            <td>Bạt</td>
-        </tr>
-        <tr>
-            <td>Kích thước</td>
-            <td>M,L,XL</td>
-        </tr>
-        <tr>
-            <td>Quần jean</td>
-            <td colspan="2">Quần jean cao cấp, dễ dàng phối đồ</td>
-        </tr>
+        <thead>
+            <tr>
+                <th>ten san pham</th>
+                <th colspan="2">mo ta</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">ao thun nam</td>
+                <td>chat lieu</td>
+                <td>bac</td>
+            </tr>
+            <tr>
+                <td>kich thuoc</td>
+                <td>m l xl</td>
+            </tr>
+            <tr>
+                <td>giay the thao</td>
+                <td>the loai</td>
+                <td>trang , den ,xam</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>remark</td>
+                <td colspan="2">chi thong ke san pham trong kho</td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 
 </html>
+
+<!--tr => dung de hang ( rows)
+th => ô tiêu đề trong bảng
+td => ô dữ liệu-->
+<!--
+thead => thuong chua tr th => lam muc chinh trong cac cot  
+tbody => chua chua tr td => san pham cac thu gia tri 
+tfoot => chua tr td => tong cong tong ket
+colspan => so luong cot 
+rowspan => so luong hang
+-->

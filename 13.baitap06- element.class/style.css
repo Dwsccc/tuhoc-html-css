@@ -1,0 +1,13 @@
+
+.temcha {
+    margin-top: 50px;
+    height: 234px;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+}
+.temcon {
+    margin-top: 70px;
+    width: 100%;
+    background-color: cadetblue;
+}

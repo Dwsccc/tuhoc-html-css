@@ -1,0 +1,11 @@
+a {
+    margin-top: 40px;
+    text-decoration: none;
+    background-color: darkgreen;
+    border-radius: 999px;
+    display: inline-block;
+}
+a:hover {
+    color :aqua;
+    background-color: black;
+}

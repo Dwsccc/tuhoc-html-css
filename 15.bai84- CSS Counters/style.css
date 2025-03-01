@@ -1,0 +1,31 @@
+h1.thu  {
+    width: 200px;
+    height: 80px;
+    outline: 1px ;
+    outline-style:groove;
+    outline-offset: 2px;
+    outline-color: brown;
+    border: 15px solid red;
+    padding: 15px;
+    color:blueviolet
+}
+h1 {
+    background-color: aqua;
+}
+
+h2.thu:hover {
+    color:chartreuse;
+    outline:auto;
+}
+a:link {
+    color:blueviolet;
+}
+a:visited {
+    color:red;
+}
+a:hover {
+    color:aqua;
+}
+a:active{
+    color:coral;
+}

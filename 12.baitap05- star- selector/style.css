@@ -1,5 +1,18 @@
-/* 
-Thêm code CSS để toàn bộ các phần tử có : 
-1. chữ màu blue 
-2. font-size 30px 
-*/
+
+  
+.dau2{
+    color:rgb(90, 64, 64);
+}
+#t_201 {
+    color:rgb(35, 126, 126);
+}
+
+
+ol {
+    color: blue;
+}
+
+ul > li {
+    color:rgb(210, 30, 63)
+}
+

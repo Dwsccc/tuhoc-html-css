@@ -11,5 +11,5 @@ input:checked ~ img {
   /* visibility: hidden; */
   /* 3. Làm mờ đi sau đó ẩn hẳn khỏi giao diện*/
   opacity: 0;
-  visibility: hidden;
+  display: none;
 }

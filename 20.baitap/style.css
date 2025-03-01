@@ -1,0 +1,85 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+header {
+    background-color: rgb(94, 197, 197);
+    display: flex;
+    color: aliceblue;
+    width: 1;
+    height: 50px;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 50%;
+}
+
+header ul a{
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;   
+}
+
+.di {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 80px;
+    font-size: 1.5em;
+}
+
+.di h1 {
+    margin: 20px;
+}
+
+button {
+    margin: 20px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: azure;
+    
+}
+
+
+
+.second h1{
+    text-align: center;
+    margin: 10px;
+}
+
+.too {
+    display: flex;
+    justify-content: center; /* Căn giữa ngang */
+    padding: 40px;
+}
+.too div {
+        text-align: center;
+        background: white;
+        padding: 20px;
+        width: 300px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: 0.3s;
+}
+
+footer {
+    background-color: bisque;
+    padding: 20px;
+    text-align: center;
+    position: absolute  ;
+    width: 100%;
+    bottom: 0;
+}
